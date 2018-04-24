@@ -77,6 +77,8 @@ def forward_euler(f,t,x,t0=0.,dt=1e-4,ut=None,ux=None,utx=None,return_u=False):
       dx = f(t_[-1],x_[-1]) * dt
     else:
       _t,_x,_u = t_[-1],x_[-1],u(t_[-1],x_[-1])
+      print('fw')
+      print(_u)
       dx = f(_t,_x,_u) * dt
       u_.append( _u )
 
