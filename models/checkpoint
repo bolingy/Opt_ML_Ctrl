@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/bolingy/Desktop/Opt_ML_Ctrl/models/ad0_model.ckpt"
+all_model_checkpoint_paths: "/home/bolingy/Desktop/Opt_ML_Ctrl/models/ad0_model.ckpt"
